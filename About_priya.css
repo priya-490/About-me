@@ -1,0 +1,87 @@
+body{
+    background-color: #ffbf69;
+    
+}
+.box{
+
+    background-color: white; /* Changed background color */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+    height: 500px; /* Increased height */
+    position:relative;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 30%;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+}
+
+.box button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(196, 148, 148);
+    margin-top: 10px;
+    width:600px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.box button:hover:not([disabled]) {
+    background-color:burlywood;
+}
+.box button:disabled{
+    cursor:no-drop;
+}
+.margin{
+    margin-top: 55px;
+}
+#btn{
+display:none;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color:crimson;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    width:100px;
+   margin-left: 40%;
+}
+#btn:hover {
+    background-color: rgb(44, 1, 10);
+}
+
+.correct {
+    background-color: rgb(108, 207, 108) !important; /* Use !important to ensure override */
+}
+
+/* Styling for incorrect answers */
+.incorrect {
+    background-color: rgb(163, 11, 11) !important; /* Use !important to ensure override */
+}
+
+.scoreboard-container {
+    margin-top: 20px;
+}
+
+.scoreboard {
+    text-align: left;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.scoreboard h2 {
+    margin-bottom: 10px;
+}
+
+.scoreboard p {
+    margin: 5px 0;
+}
